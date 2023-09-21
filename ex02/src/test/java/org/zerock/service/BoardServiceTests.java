@@ -58,5 +58,15 @@ public class BoardServiceTests {
 		log.info("좋아요 +1");
 		service.good(2687010L);
 	}
+	@Test
+	public void testNow() {
+		log.info("현재시간:"+service.now());
+	}
+	
 	
 }
+
+
+
+
+

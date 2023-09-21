@@ -87,8 +87,10 @@
 					return;
 				}
 			}
-			else if(operation==="remove") //삭제 버튼이 눌리면
+			else if(operation==="remove"){ //삭제 버튼이 눌리면
 				formObj.attr("action","/board/remove");
+				formObj.attr("method","get");
+			}
 			else if(operation==="list"){ //리스트 버튼이 눌리면
 				console.log("리스트 버튼 동작");
 				self.location="/board/list";  //board/list 요청

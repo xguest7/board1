@@ -9,7 +9,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header"><i class="fa fa-list-ul"></i> 게시판</h1>
+                    <h1 class="page-header"><i class="fa fa-list-ul"></i> 게시판</h1> 현재시간${now}
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
