@@ -7,9 +7,9 @@
 </head>
 <body>
 <h1>
-	Hello world!  홈페이지 이제는 한글로 잘나온다.
+	안녕 세계!  홈페이지 이제는 한글로 잘나온다.
 </h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+<P>  이 서버의 현재시간은 ${serverTime}. </P>
 </body>
 </html>
