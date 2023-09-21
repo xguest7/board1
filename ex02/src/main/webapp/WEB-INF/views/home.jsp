@@ -1,5 +1,5 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" pageEncoding="UTF-8"%>
-<%@ page session="false" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" pageEncoding="UTF-8"%>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -7,9 +7,9 @@
 </head>
 <body>
 <h1>
-	안녕 세계!  홈페이지 이제는 한글로 잘나온다.
+	아 망했어요
 </h1>
 
-<P>  이 서버의 현재시간은 ${serverTime}. </P>
+<P>  문제없음. ${serverTime}. </P>
 </body>
 </html>
